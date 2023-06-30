@@ -39,6 +39,7 @@ html {
     transition: all 2s;
 }
 
+//**ON HOVER EFFECT STARTS **//
 .menu:hover .menu-item:nth-child(1) {
     transform: rotateY(-70deg) rotateX(20deg)
     translateX(-50rem) translateY(-15rem) translateZ(-50rem);
@@ -46,18 +47,24 @@ html {
 
 .menu:hover .menu-item:nth-child(2) {
     transform: rotateY(-70deg) rotateX(20deg)
-    translateX(-20rem) translateY(-5rem) translateZ(-50rem);
+    translateX(-20rem) translateY(-5rem) translateZ(-20rem);
+}
+
+.menu:hover .menu-item:nth-child(3) {
+    transform: rotateX(20deg)
 }
 
 .menu:hover .menu-item:nth-child(4) {
-    transform: rotateY(70deg) rotateX(-20deg)
-    translateX(50rem) translateY(15rem) translateZ(50rem);
+    transform: rotateY(70deg) rotateX(20deg)
+    translateX(20rem) translateY(-5rem) translateZ(-20rem);
 }
 
-.menu:hover .menu-item:nth-child(4) {
-    transform: rotateY(70deg) rotateX(-20deg)
-    translateX(50rem) translateY(15rem) translateZ(50rem);
+.menu:hover .menu-item:nth-child(5) {
+    transform: rotateY(70deg) rotateX(20deg)
+    translateX(50rem) translateY(-15rem) translateZ(-50rem);
 }
+
+//**ON HOVER EFFECT ENDS **//
 
 .menu-item i {
     font-size: 7rem;
