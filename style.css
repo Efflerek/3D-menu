@@ -36,8 +36,12 @@ html {
     cursor: pointer;
     box-shadow: 0 0 2rem rgba(100, 100, 255, 0.4);
     opacity: 0.6;
-    /**transition: all 2s;* deleted to add the same js effect/
+    /**transition: all 2s;* deleted to add the same js effect*/
 }
+
+.menu-item:not(.center-item) {
+    opacity: 0;
+} /*Add to add js effect*/
 
 /**ON HOVER EFFECT STARTS **/
 /*.menu:hover deleted to add the same js effect*/ .menu-item:nth-child(1) {
