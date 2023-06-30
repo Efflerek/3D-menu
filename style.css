@@ -39,7 +39,7 @@ html {
     transition: all 2s;
 }
 
-//**ON HOVER EFFECT STARTS **//
+/**ON HOVER EFFECT STARTS **/
 .menu:hover .menu-item:nth-child(1) {
     transform: rotateY(-70deg) rotateX(20deg)
     translateX(-50rem) translateY(-15rem) translateZ(-50rem);
@@ -64,7 +64,7 @@ html {
     translateX(50rem) translateY(-15rem) translateZ(-50rem);
 }
 
-//**ON HOVER EFFECT ENDS **//
+/**ON HOVER EFFECT ENDS **/
 
 .menu-item i {
     font-size: 7rem;
